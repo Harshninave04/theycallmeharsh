@@ -12,11 +12,23 @@ function App() {
     <div className="bg-black">
       <CustomCursor />
       <Navigation />
-      <Hero />
-      <About />
-      <Skills />
-      <Work />
-      <Footer />
+      
+      <section id="home" className="min-h-screen">
+        <Hero />
+      </section>
+
+      <section id="about" className="min-h-screen">
+        <About />
+      </section>
+
+      <section id="projects" className="min-h-screen">
+        <Skills />
+        <Work />
+      </section>
+
+      <section id="contact" className="min-h-screen">
+        <Footer />
+      </section>
     </div>
   );
 }
