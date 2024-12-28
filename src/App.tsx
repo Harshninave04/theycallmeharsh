@@ -22,8 +22,8 @@ function App() {
       </section>
 
       <section id="projects" className="min-h-screen">
-        <Skills />
         <Work />
+        <Skills />
       </section>
 
       <section id="contact" className="min-h-screen">
