@@ -5,29 +5,31 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution built with React, Node.js, and PostgreSQL',
-    image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800',
+    title: 'Personal Portfolio Website',
+    description: 'A personal portfolio website showcasing my work and skills as a developer.',
+    image: 'https://harshninave.netlify.app/showcaseme.png',
     tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
     github: 'https://github.com',
-    live: 'https://example.com'
+    live: 'https://example.com',
   },
   {
     title: 'Task Management App',
     description: 'Real-time task management application with team collaboration features',
-    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&q=80&w=800',
+    image:
+      'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&q=80&w=800',
     tech: ['React', 'Firebase', 'Tailwind CSS'],
     github: 'https://github.com',
-    live: 'https://example.com'
+    live: 'https://example.com',
   },
   {
     title: 'AI Content Generator',
     description: 'AI-powered content generation tool using OpenAI API',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800',
+    image:
+      'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800',
     tech: ['Next.js', 'OpenAI', 'MongoDB'],
     github: 'https://github.com',
-    live: 'https://example.com'
-  }
+    live: 'https://example.com',
+  },
 ];
 
 const Projects = () => {

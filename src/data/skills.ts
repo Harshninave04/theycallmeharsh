@@ -14,21 +14,21 @@ export const skills: Skill[] = [
   {
     name: "DevOps",
     description: "Implementing continuous integration and deployment",
-    technologies: ["Docker", "AWS", "GitHub Actions", "Nginx"]
+    technologies: ["Docker", "AWS", "GitHub Actions"]
   },
   {
     name: "Mobile",
     description: "Developing cross-platform mobile applications",
-    technologies: ["React Native", "Expo", "Android", "iOS"]
+    technologies: ["React Native", "Expo", "Android"]
   },
   {
     name: "Design",
     description: "Creating user-centered digital experiences",
-    technologies: ["Figma", "Adobe XD", "UI/UX", "Prototyping"]
+    technologies: ["Figma", "UI/UX", "Prototyping"]
   },
   {
     name: "Tools",
     description: "Utilizing modern development tools",
-    technologies: ["Git", "VS Code", "Webpack", "Jest"]
+    technologies: ["Git", "VS Code", "Webpack", "Postman"]
   }
 ];
