@@ -12,7 +12,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-center mb-16">Get in Touch</h2>
+          <h2 className="text-6xl md:text-8xl font-bold text-center mb-16">Get in Touch</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div className="space-y-8">
