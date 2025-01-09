@@ -22,3 +22,14 @@
   pointer-events: none;
   mix-blend-mode: difference;
 }
+
+@font-face {
+  font-family: 'Lineal-Medium';
+  src: url('./fonts/Lineal-Medium.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Lineal-Medium', sans-serif;
+}
