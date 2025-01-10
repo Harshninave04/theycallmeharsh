@@ -18,7 +18,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-24 border-t border-white/10">
+    <footer className="py-24 border-t border-white/10 text-white bg-slate-800">
       <div className="container mx-auto px-6">
         <motion.div
           className="text-center mb-16"
@@ -66,7 +66,7 @@ const Footer = () => {
                 <div className="flex items-center gap-3 text-neutral-400 hover:text-white transition-colors">
                   <span className="text-2xl">📞</span>
                   <a href="tel:+1234567890" className="text-lg">
-                    +91 7507460897
+                    +91 7507460xxx
                   </a>
                 </div>
               </motion.div>
