@@ -7,6 +7,7 @@ import Work from './components/sections/Work';
 import Footer from './components/layout/Footer';
 import CustomCursor from './components/common/CustomCursor';
 import Skill from './components/Skills';
+import Preview from './components/Preview';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       
       <section id="home" className="min-h-screen">
         <Hero />
+        <Preview/>
       </section>
 
       <section id="about" className="min-h-screen">
